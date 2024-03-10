@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000000;
+}
+.container h1{
+    color: rgb(213, 141, 118);
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member {
+    display: flex;
+    margin-bottom: 40px;
+    background-color:  rgb(213, 141, 118);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.member-info {
+    flex: 1;
+}
+
+.member-info h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.member-info p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.image img{
+    height:100% ;
+    width: 100%;
+    border-radius: 8px;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .team-member {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Meet Our Team<br><br>(TEAM HORIZON)</h1>
+        </header>
+        <section class="team-member">
+            <img src="C:\Users\Lenovo\Downloads\pphack.gif" alt="Sudhanshu">
+            <div class="member-info">
+                <h2>Sudhanshu Kodukulla</h2>
+                <p>UI/UX</p>
+                <p>i contributed WebDesign and Graphics.</p>
+            </div>
+        </section>
+        <section class="team-member">
+            <img src="C:\Users\Lenovo\Downloads\pphack.gif" alt="Krish">
+            <div class="member-info">
+                <h2>Krish Gupta</h2>
+                <p>frontend</p>
+                <p>i contributed HTML and CSS code.</p>
+            </div>
+        </section>
+        <section class="team-member">
+            <img src="C:\Users\Lenovo\Downloads\pphack.gif" alt="Sujal">
+            <div class="member-info">
+                <h2>Sujal Kalra</h2>
+                <p>Backend</p>
+                <p>I contributed Website Management.</p>
+            </div>
+        </section>
+        <section class="team-member">
+            <img src="C:\Users\Lenovo\Downloads\pphack.gif" alt="Abhishek">
+            <div class="member-info">
+                <h2>Abhishek Agarwal</h2>
+                <p>AI/ML</p>
+                <p>i contributed Machine Learning algorithm.</p>
+            </div>
+        </section>
+        <section class="image">
+            <a href="homep.html">            
+                <img src="C:\Users\Lenovo\Downloads\68747470733a2f2f692e726564642e69742f6e38616777367a32736d7962312e676966.gif" alt="coder" >
+            </a>
+        </section>
+
+        <!-- Add more sections for other team members -->
+    </div>
+</body>
+</html>
