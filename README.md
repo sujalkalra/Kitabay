@@ -10,3 +10,7 @@ Surya Sudhanshu: Frontend development, Figma, UI/UX development.
 
 
 👆🏼👆🏼👆🏼👆🏼👆🏼👆🏼👆🏼 click image to view.
+
+
+## components and tools:     
+<img src="https://skillicons.dev/icons?i=html,css,js" height="50"/>
